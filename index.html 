@@ -45,7 +45,7 @@
             window.location.href = 'login.html';
         }
 
-        const apiKey = 'sk-None-q2Oa5wzu4LeobcBDSqcMT3BlbkFJ6UIryZ71Xko4QRxU38zd';
+        const apiKey = 'YOUR_API_KEY';
 
         // ... (rest of the code remains the same)
     </script>
