@@ -1,1 +1,29 @@
-
+{
+  "name": "english-claude",
+  "version": "1.0.0",
+  "description": "A simple web application for English learning with Claude",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo 'No build step required for static HTML/CSS/JS'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guillaume7625/Englishclaude.git"
+  },
+  "keywords": [
+    "english",
+    "learning",
+    "claude",
+    "ai"
+  ],
+  "author": "Guillaume7625",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guillaume7625/Englishclaude/issues"
+  },
+  "homepage": "https://github.com/Guillaume7625/Englishclaude#readme",
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
