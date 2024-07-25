@@ -5,38 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <style>
-        /* Styles for the login page */
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #f0f8ff;
             margin: 0;
+            background-color: #f0f0f0;
         }
         .login-container {
-            background-color: #fff;
+            background-color: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        input[type="password"], button {
+        input, button {
             display: block;
             width: 100%;
             margin: 10px 0;
             padding: 10px;
-            font-size: 1rem;
+            box-sizing: border-box;
         }
         button {
-            background-color: #4caf50;
+            background-color: #007bff;
             color: white;
             border: none;
             cursor: pointer;
-            transition: background-color 0.3s;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #0056b3;
         }
     </style>
 </head>
@@ -56,10 +54,6 @@
                 alert('Incorrect Password');
             }
         }
-        
-        const openaiApiKey = "YOUR_API_KEY";
-        // Utilisez openaiApiKey dans votre code JavaScript pour interagir avec l'API OpenAI
-        console.log("OpenAI API Key:", openaiApiKey);
     </script>
 </body>
 </html>
